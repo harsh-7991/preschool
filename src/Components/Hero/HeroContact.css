@@ -314,6 +314,10 @@
         width: -webkit-fill-available;
     }
 
+    .contact2-col .contact_head {
+        padding: 0px;
+    }
+
     .contact2-col ul {
         display: flex;
         flex-direction: column;
