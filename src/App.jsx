@@ -1,6 +1,8 @@
 // import { useState } from 'react'
 import Navbar from "./Components/Navbar/Navbar";
-import Hero from "./Components/Hero/Hero";
+// import Hero from "./Components/Hero/Hero";
+import HeroContact from "./Components/Hero/HeroContact";
+
 import Programs from "./Components/Programs/Programs";
 import Title from "./Components/Title/Title";
 import About from "./Components/About/About";
@@ -13,7 +15,9 @@ const App = () => {
 	return (
 		<div>
 			<Navbar />
-			<Hero />
+			{/* <Hero /> */}
+			<HeroContact />
+
 			<div className="container">
 				<Title subTitle="Our PROGRAM" title="What We Offer" />
 				<Programs />

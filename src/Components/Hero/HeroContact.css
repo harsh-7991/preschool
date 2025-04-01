@@ -1,0 +1,361 @@
+.hero2 {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(8, 0, 58, 0.7), rgba(8, 0, 58, 0.7)), url('../../assets/front_page4.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero2-text {
+    text-align: center;
+    max-width: 800px;
+    margin-top: 220px;
+}
+
+.hero2-text h1 {
+    font-size: 60px;
+    font-weight: 600;
+    /* margin-bottom: 550px; */
+}
+
+.hero2-text p {
+    max-width: 700px;
+    margin: 10px auto 20px;
+    line-height: 1.7;
+}
+
+/* ---------- media query --------- */
+
+
+
+@media (max-width: 1080px) {
+    .hero2-text h1 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .hero2 {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .hero2-text {
+        font-size: 14px;
+        margin: 0px;
+        padding: 0 0 15px 0;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hero2-text .btn {
+        padding: 15px 30px;;
+    }
+
+    .hero2-text h1 {
+        font-size: 30px;
+        max-width: 400px;
+        margin: auto;
+    }
+
+    .hero2-text p {
+        font-size: 16px;
+        padding: 0px 20px;
+        margin: 10px auto 15px;
+    }
+}
+
+
+
+@media (max-width: 850px) {
+    .hero2-text h1 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 650px) {
+    .hero2-text h1 {
+        font-size: 30px;
+        max-width: 400px;
+        margin: auto;
+    }
+
+    .hero2-text p {
+        font-size: 14px;
+        margin: 15px auto 30px;
+    }
+}
+
+@media (max-width: 450px) {
+    .hero2 {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+
+    .hero2-text {
+        font-size: 14px;
+        margin: 60px 0px 0px 0px;
+        border-bottom: 1px solid #c5c5c559;
+        padding: 0 0 15px 0;
+        width: -webkit-fill-available;
+    }
+
+    .hero2-text .btn {
+        padding: 10px 20px;
+    }
+
+    .hero2-text h1 {
+        font-size: 25px;
+        max-width: 400px;
+        margin: auto;
+    }
+
+    .hero2-text p {
+        font-size: 14px;
+        margin: 10px auto 15px;
+    }
+}
+
+
+
+/* Contact Block */
+
+
+
+.contact2 {
+    margin: 80px auto;
+    max-width: 90%;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.contact2-col {
+    flex-basis: 48%;
+    color: #dfdfdf;
+}
+
+.contact2-col h3 {
+    color: #dfdfdf;
+    font-weight: 500;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.contact2-col h3 img {
+    width: 35px;
+    margin-left: 10px;
+}
+
+.contact2-col p {
+    max-width: 450px;
+    list-style: 0.3;
+}
+
+.contact2-col ul li {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.contact2-col ul li img {
+    width: 25px;
+    margin-right: 10px;
+}
+
+.contact2 form input,
+.contact2 form textarea {
+    display: block;
+    width: 100%;
+    background: #EBECFE;
+    padding: 15px;
+    border: 0;
+    outline: 0;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    resize: none;
+}
+
+.contact2-col span {
+    display: block;
+    margin: 20px 0;
+}
+.contact2-col .btn {
+    border: 1px solid #ffffff5e;
+}
+
+/* ----------- media query -------- */
+
+
+
+@media (max-width: 1400px) {
+    .contact2 {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        margin: 10px 0px;
+    }
+
+    .contact2-col {
+        padding: 10px;
+        width: -webkit-fill-available;
+    }
+
+    .contact2-col ul {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+    }
+
+    .contact2-col ul li {
+        display: flex;
+        align-items: center;
+        margin: 5px 0;
+    }
+
+    .contact2 form {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        align-items: stretch;
+    }
+
+    .contact2 form input,
+    .contact2 form textarea {
+        display: block;
+        width: 90%;
+        background: #EBECFE;
+        padding: 10px;
+        font-size: 16px;
+        border: 0;
+        outline: 0;
+        margin-bottom: 15px;
+        margin-top: 5px;
+        resize: none;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+
+    .contact2-col span {
+        display: block;
+        margin: 20px 0;
+    }
+    .contact2-col .btn {
+        border: 1px solid #ffffff5e;
+    }
+}
+
+
+
+@media (max-width: 700px) {
+    .contact2 {
+        display: block;
+    }
+
+    .contact2-col {
+        padding: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 450px) {
+    .contact2 {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        margin: 10px 0px;
+    }
+
+    .contact2-col {
+        padding: 10px;
+        width: -webkit-fill-available;
+    }
+
+    .contact2-col ul {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+    }
+
+    .contact2-col ul li {
+        display: flex;
+        align-items: center;
+        margin: 5px 0;
+    }
+
+    .contact2 form {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        align-items: stretch;
+    }
+
+    .contact2 form input,
+    .contact2 form textarea {
+        display: block;
+        width: 100%;
+        background: #EBECFE;
+        padding: 10px;
+        border: 0;
+        outline: 0;
+        margin-bottom: 15px;
+        margin-top: 5px;
+        resize: none;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+
+    .contact2-col span {
+        display: block;
+        margin: 20px 0;
+    }
+
+    .contact2-col .btn {
+        border: 1px solid #ffffff5e;
+    }
+}
