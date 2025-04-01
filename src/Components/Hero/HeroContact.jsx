@@ -63,13 +63,15 @@ const Hero = () => {
 
             <div className='contact2'>
                 <div className="contact2-col">
-                    <h3>Send us a Message <img src={msg_icon} alt="" /></h3>
-                    <p>If You Want To Contact Us Then Please Fill This Form and Submit.</p>
-                    {/* <ul>
-                        <li><img src={mail_icon} alt="" />Contact@gmail.com</li>
-                        <li><img src={phone_icon} alt="" />+1 123-456-7890</li>
-                        <li><img src={location_icon} alt="" />Preschool, Pune</li>
-                    </ul> */}
+                    <div className="contact_head">
+                        <h3>Send us a Message <img src={msg_icon} alt="" /></h3>
+                        <p>If You Want To Contact Us Then Please Fill This Form and Submit.</p>
+                        {/* <ul>
+                            <li><img src={mail_icon} alt="" />Contact@gmail.com</li>
+                            <li><img src={phone_icon} alt="" />+1 123-456-7890</li>
+                            <li><img src={location_icon} alt="" />Preschool, Pune</li>
+                        </ul> */}
+                    </div>
                 </div>
                 <div className="contact2-col">
                     <form onSubmit={onSubmit}>
